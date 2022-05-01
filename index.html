@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My future adventures</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/roboto">
+</head>
+<body onLoad="animationPlanet()">
+    
+    <header class="header">
+        <nav class="nav-bar color-and-font-text">
+            <div class="nav-bar-wrapper">
+                <div class="nav-logo-wrapper">
+                     <i class="logo"></i>
+                     <span class="nav-title">MY FUTURE ADVENTURES</span>
+                </div>
+
+                <div class="nav-menu-wrapper">
+                     <span class="nav-menu-item">Головна</span>
+                     <span class="nav-menu-item">Про нас</span>
+                     <i class="nav-menu-icon"></i>
+                </div>
+
+                <div class="menu-button"></div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="page-wrapper">
+        <section class="registration-section">
+            <div class="registration-form-wrapper">
+
+                <div class="registration-div-image">
+                    <img class="registration-form-image" id="planet-img" src="./Images/Mars-animation.svg" alt="planet-img">
+                </div>
+
+                <div class="form-card flex-column">
+                    <div class="form-wrapper">
+                        <h2 class="form-title">Електронна черга</h2>
+                        <h2 class="form-title">для запису у групи для колонізації космосу</h2>
+                                           
+                         <form action="submit" class="registration-form flex-column">
+                             <label class="form-label" for="name">Ім'я</label>
+                             <input type="text" class="form-input" id="name" name="name" placeholder="Введіть імʼя" required>
+
+                             <label class="form-label" for="surname">Прізвище</label>
+                             <input type="text" class="form-input" id="surname" name="surname" placeholder="Введіть прізвище" required>
+
+                             <label class="form-label" for="phone">Телефон</label>
+                             <input type="tel" class="form-input" id="phone" name="phone" pattern="[0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}" placeholder="+38 (___) ___ __ __" title="Введіть у форматі: 096 145 87 96" required>
+
+                             <label class="form-label" for="select">Колонізація планети</label>
+                             <select name="select" id="select" class="form-input form-input-select" required>
+                                 <option value="Venus">1 Венера</option>
+                                 <option value="Earth">2 Земля</option>
+                                 <option value="Mars" selected>3 Марс</option>
+                                 <option value="Mercury">4 Меркурій</option>
+                                 <option value="Neptune">5 Нептун</option>
+                                 <option value="Uranus">6 Уран</option>
+                             </select>
+                             
+                             <label class="form-label" for="profession">Професія</label>
+                             <input type="text" class="form-input" id="profession" name="profession" placeholder="Введіть професію" required>
+                             
+                             <button class="form-submit-button" type="submit">Зареєструватися</button>
+
+                             <i class="form-image"></i>
+                         </form>   
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer color-and-font-text">
+        <span>
+            © 2022 MY FUTURE ADVENTURES. Всі права захищені.
+        </span>
+    </footer>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
