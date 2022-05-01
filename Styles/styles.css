@@ -255,14 +255,18 @@ select option{
 }
 
 @media (max-width: 720px){
-    body{
-        background-repeat: no-repeat;
-    }
-
     .registration-div-image{
         position: absolute;
-        top: 1%;
+        top: -6%;
         left: 3%;
+        width: 60%;
+        height: 30%;
+        z-index: -99;
+    }
+
+    .registration-form-image{
+        height: 35vh;
+        width: 35vh;
     }
     
     .form-card{
