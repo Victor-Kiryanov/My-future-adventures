@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+:root {
+    --text-color: #566F96;
+    --button-dimmed: #AEDBCE;
+    --button-active: #30C598;
+    --background-gradient-one: #DFE1F8;
+    --background-gradient-two: #699ED1;
+    --border-color: #CED0DB;
+    --button-text-color:#FFF;
+    --select-text: #DFE1F8;;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 16px;
+    background-image: url("../Images/Bg.svg");
+    background-size: cover;
+    min-width: 340px;
+}
+
+.page-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 22px;
+}
+
+.header, .page-wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.registration-section{
+    width: 100%;
+}
+
+.registration-form-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.registration-form{
+    height: 529px;
+}
+
+.nav-bar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 80px 0 80px;
+}
+
+.nav-logo-wrapper {
+    padding-left: 80px;
+}
+
+.logo{
+    position: absolute;
+    background-image: url('../Images/Planet(logo).svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 39px;
+    height: 28px;
+    left: 5px;
+}
+
+.logo::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    border-left: 1px solid var(--text-color);
+    width: 1px;
+    height: 24px;
+    left: 63px;
+    top: 2px;
+}
+
+.nav-title{
+    display: inline-block;
+    line-height: 2em;
+}
+
+.nav-menu-item{
+    line-height: 100%;
+    margin-top: 0;
+    top: -6px;
+    padding-right: 24px;
+}
+
+.nav-menu-icon{
+    display: inline-block;
+    background-image: url('../Images/icons/Icon.svg');
+    background-position: center;
+    top: 2px;
+    width: 28px;
+    height: 28px;
+}
+
+.registration-div-image{
+    height: 600px;
+    width: 604px;
+}
+
+.registration-form-image{
+    height: 400px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-card{
+    max-width: 515px;
+    min-width: 350px;
+    height: 706px;
+    background: linear-gradient(var(--background-gradient-one), var(--background-gradient-two));
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(38, 27, 27, 0.15);
+}
+
+.form-card:hover {
+    box-shadow: 0px 0px 10px 15px var(--background-gradient-one);
+  }
+
+.form-wrapper{
+    min-width: 50%;
+    padding: 34px 48px 24px 48px;
+}
+
+.form-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: center;
+    min-width: 372px;
+}
+
+select, input{
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 16px;
+}
+
+.form-input{
+    width: 280px;
+    height: 48px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.form-label{
+    padding: 24px 0 8px 0;
+    line-height: 16px;
+}
+
+.form-label:first-of-type{
+    padding: 14px 0 8px 0;
+}
+
+.form-submit-button{
+    background: var(--button-dimmed);
+    border: none;
+    border-radius: 4px;
+    color: var(--button-text-color);
+    padding: 9px 24px;
+    width: 190px;
+    height: 50px;
+    margin-top: 24px;
+    font-size: 18px;
+}
+
+.form-submit-button:hover{
+    background: var(--button-active);
+}
+
+.form-input-select{
+    appearance: none;
+    background-image: url("../Images/icons/Expand More.svg");
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+
+select option{
+    background-color: var(--select-text);
+    font-size: 18px;
+}
+
+.form-image{
+    position: absolute;
+    background-image: url('../Images/CityscapesUFOandAlien.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(-20deg);
+    width: 147px;
+    height: 94px;
+    left: calc(50% - 147px/2 + 140px);
+    top: calc(35% - 94px/2 + 294px);
+}
+
+.color-and-font-text{
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.footer {
+    line-height: 150%;
+    padding: 3% 0 0 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: none;
+    background-color: var(--text-color);
+    height: 3px;
+    width: 24px;
+    margin-right: 10px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 12px;
+}
+
+@media (width: 1440px)
+{
+    .footer {
+        position: fixed;
+        padding: 24px 0;
+    } 
+}
+
+@media (max-width: 720px){
+    .registration-div-image{
+        position: absolute;
+        top: 1%;
+        left: 3%;
+    }
+    
+    .form-card{
+        margin: 0 170px;
+        min-width: 345px;
+    }
+
+    .form-image{
+        left: calc(40% - 147px/2 + 140px);
+        top: calc(40% - 94px/2 + 294px);
+    }
+
+    .form-title {
+        line-height: 36px;
+        min-width: 280px;
+    }
+
+    .nav-bar-wrapper {
+        padding: 20px 15px;
+    }
+
+    .nav-menu-wrapper {
+        display: none;
+    }
+
+    .nav-logo-wrapper {
+        padding: 0;
+    }
+
+    .logo {
+        left: 0;
+    }
+
+    .nav-title {
+        font-size: 14px;
+        padding-left: 85px;
+    }
+
+    .menu-button,
+    .menu-button::before,
+    .menu-button::after {
+    display: block;
+    }
+
+    .footer {
+        padding: 7% 0 0 0;
+    } 
+}
