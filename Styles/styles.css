@@ -255,6 +255,10 @@ select option{
 }
 
 @media (max-width: 720px){
+body{
+    max-height: 862px;
+}
+
     .registration-div-image{
         position: absolute;
         top: 1%;
@@ -306,8 +310,4 @@ select option{
     .footer {
         padding: 7% 0 0 0;
     } 
-
-    .registration-form-wrapper {
-        position: relative;
-    }
 }
