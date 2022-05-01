@@ -257,7 +257,7 @@ select option{
 @media (max-width: 720px){
     .registration-div-image{
         position: absolute;
-        top: -6%;
+        top: -13%;
         left: 3%;
         width: 60%;
         height: 30%;
