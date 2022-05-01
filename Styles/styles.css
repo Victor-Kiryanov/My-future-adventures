@@ -306,4 +306,8 @@ select option{
     .footer {
         padding: 7% 0 0 0;
     } 
+
+    .registration-form-wrapper {
+        position: relative;
+    }
 }
