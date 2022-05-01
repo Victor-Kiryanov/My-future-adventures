@@ -255,9 +255,9 @@ select option{
 }
 
 @media (max-width: 720px){
-body{
-    max-height: 862px;
-}
+    body{
+        background-repeat: no-repeat;
+    }
 
     .registration-div-image{
         position: absolute;
