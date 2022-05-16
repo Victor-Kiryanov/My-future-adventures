@@ -59,6 +59,33 @@ Viktor Kirianov
 # Перегляд таблиці Планети
 ![Снимок](https://user-images.githubusercontent.com/90868360/168692154-2f50bae2-9fea-4fb4-8818-aebcb6437480.JPG)
 ![Снимок](https://user-images.githubusercontent.com/90868360/168692227-7e47613c-46d5-49de-b182-03b69f611974.JPG)
+# Виведення інформації про статуси за id
+![Снимок](https://user-images.githubusercontent.com/90868360/168692380-4a19fa5b-8a8e-4678-9d21-deb11e845856.JPG)
+![Снимок](https://user-images.githubusercontent.com/90868360/168692428-d16bd9e0-3def-4b22-93b5-bc31709242ac.JPG)
+# Виведення інформації про планети
+![Снимок](https://user-images.githubusercontent.com/90868360/168692818-2da01228-6a62-48ef-8ed5-b352fc3a33e2.JPG)
+![Снимок](https://user-images.githubusercontent.com/90868360/168692866-addfb41f-833b-475b-a737-c4af0c2686c8.JPG)
+# Виведення інформації про оператора за власним кодом
+![Снимок](https://user-images.githubusercontent.com/90868360/168693018-2ebca857-5389-4535-a322-d1df2b6316d2.JPG)
+![Снимок](https://user-images.githubusercontent.com/90868360/168693057-f9dc2408-8a75-41e0-a331-f613bec280ed.JPG)
+# Додавання нового оператора
+![Снимок](https://user-images.githubusercontent.com/90868360/168693170-8994688c-8514-479b-82e8-211403d292d4.JPG)
+# Перегляд доданого оператора
+![Снимок](https://user-images.githubusercontent.com/90868360/168693235-484ef629-d318-475f-9ff5-7c2f2fdc909d.JPG)
+# Видалення доданого оператора
+![Снимок](https://user-images.githubusercontent.com/90868360/168693323-6b85100d-0997-4692-8c3d-ef5671c82bee.JPG)
+# Перегляд для впевноності, що оператор видалився
+![Снимок](https://user-images.githubusercontent.com/90868360/168693403-17f3e7c6-2499-44d2-b1a1-40d539c0f1f9.JPG)
+# Редагування особистого індентифікатора для обраного оператора
+![Снимок](https://user-images.githubusercontent.com/90868360/168693562-e480c476-a09d-43e0-ba81-3c9e65c10b2b.JPG)
+# Перегляд для впевноності, що особистий індентифікатор оператора змінився
+![Снимок](https://user-images.githubusercontent.com/90868360/168693627-f221548b-7882-46be-af9f-3edc26af9402.JPG)
+# Перегляд усіх заявок
+![Снимок](https://user-images.githubusercontent.com/90868360/168693736-4c886a18-9a3a-429f-ac6b-fbe7a1015532.JPG)
+# Видалення заявки з ID = 12, заявка вже оброблена
+![Снимок](https://user-images.githubusercontent.com/90868360/168693802-c3ea01ab-f1d8-4016-96df-b3086bae5b2e.JPG)
+# Перегляд для впевноності, що заявка видалена
+![image](https://user-images.githubusercontent.com/90868360/168693862-08859867-8cd6-4b85-9edc-0e0f57c4d256.png)
 
 
 
