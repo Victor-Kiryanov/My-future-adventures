@@ -48,8 +48,19 @@ Viktor Kirianov
 ![Снимок](https://user-images.githubusercontent.com/90868360/168690057-83d696a9-0cdd-4a3b-b286-320c838b5ffd.JPG)
 ![Снимок](https://user-images.githubusercontent.com/90868360/168690095-52d46be7-c44e-4baf-bb4e-1f15d471e69b.JPG)
 # Перегляд вільних операторів (Другий оператор вільний, так як він обробив дві заявки, а нових не має в черзі, перший оператор ще в процесі обробки)
+![Снимок](https://user-images.githubusercontent.com/90868360/168691855-a8537dc5-7664-4583-9054-85299e7e4c15.JPG)
 ![image](https://user-images.githubusercontent.com/90868360/168690264-d7e71c1e-73eb-436c-bdfa-9ea371399f04.png)
 #
 # ІНШИЙ ФУНКЦІОНАЛ
 #
+# Перегляд таблиці Статуси
+![Снимок](https://user-images.githubusercontent.com/90868360/168692000-7896659a-3134-4963-b6c5-ea2f2096b66f.JPG)
+![Снимок](https://user-images.githubusercontent.com/90868360/168692071-176d1a35-8a4d-42b6-984e-3bd9034f6eba.JPG)
+# Перегляд таблиці Планети
+![Снимок](https://user-images.githubusercontent.com/90868360/168692154-2f50bae2-9fea-4fb4-8818-aebcb6437480.JPG)
+![Снимок](https://user-images.githubusercontent.com/90868360/168692227-7e47613c-46d5-49de-b182-03b69f611974.JPG)
+
+
+
+
 
