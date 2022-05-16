@@ -32,3 +32,26 @@ function animationPlanet() {
 		registrationImage.style.top =  100 + parametr.radius * Math.cos(angleSum) + 'px';
 	}, parametr.speed)
 }
+
+fetch('http://localhost:8080/MyFutureAdventure/PlanetsServlet')
+      .then((response) => response.json())
+      .then((json) => {
+	   newOptions = json;
+
+       newOptions.forEach((Option) => {
+		   return createNewOption(Option.ValuesPlanets, Option.Title)
+	   });
+    });
+
+function createNewOption(ValuesPlanets, Title)	
+{
+	let createOption = document.createElement("option");
+	createOption.innerText = Title;
+	createOption.value = ValuesPlanets;
+	appendOption(createOption);
+}
+
+function appendOption(option)
+{
+	selectElem.append(option);
+}

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My future adventures</title>
     <link rel="stylesheet" href="./Styles/styles.css">
-    <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/roboto">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/roboto">
 </head>
 <body onLoad="animationPlanet()">
     
@@ -34,7 +34,7 @@
             <div class="registration-form-wrapper">
 
                 <div class="registration-div-image">
-                    <img class="registration-form-image" id="planet-img" src="./Images/Mars-animation.svg" alt="planet-img">
+                    <img class="registration-form-image" id="planet-img" src="./Images/Venus-animation.svg" alt="planet-img">
                 </div>
 
                 <div class="form-card flex-column">
@@ -42,7 +42,7 @@
                         <h2 class="form-title">Електронна черга</h2>
                         <h2 class="form-title">для запису у групи для колонізації космосу</h2>
                                            
-                         <form action="submit" class="registration-form flex-column">
+                         <form action="http://localhost:8080/MyFutureAdventure/ClientServlet" method="POST" class="registration-form flex-column">
                              <label class="form-label" for="name">Ім'я</label>
                              <input type="text" class="form-input" id="name" name="name" placeholder="Введіть імʼя" required>
 
@@ -54,12 +54,6 @@
 
                              <label class="form-label" for="select">Колонізація планети</label>
                              <select name="select" id="select" class="form-input form-input-select" required>
-                                 <option value="Venus">1 Венера</option>
-                                 <option value="Earth">2 Земля</option>
-                                 <option value="Mars" selected>3 Марс</option>
-                                 <option value="Mercury">4 Меркурій</option>
-                                 <option value="Neptune">5 Нептун</option>
-                                 <option value="Uranus">6 Уран</option>
                              </select>
                              
                              <label class="form-label" for="profession">Професія</label>
